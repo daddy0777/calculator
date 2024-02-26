@@ -47,6 +47,7 @@ let btnArray = Array.from(button);
         else if(e.target.innerHTML == 'AC'){
             str = " ";
             input.value = str;
+            window.location.reload();
         }
         else{
         str += e.target.innerHTML;
